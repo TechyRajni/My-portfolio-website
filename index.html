@@ -1,0 +1,272 @@
+
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+<link rel="stylesheet" href="style.css">    
+</head>
+
+<body>
+<header class="main-header">
+
+    <div class="logo">
+        TechBLOOM <span class="portfolio-text">Portfolio</span>
+    </div>
+
+    <nav class="navbar">
+
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#certificate">Certificate</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      <button id="theme-toggle" class="theme-toggle">
+     <i class="fa-solid fa-moon"></i>
+</button>
+</nav>
+</header>
+
+         <!-- =================HOME SECTION ================= -->
+
+    <section id="home" class="hero">
+    <div class="profile">
+    <img src="rajni.jpeg" class="" alt="profile">
+    </div>
+
+    <div class="divider">
+    <span></span>
+  ✦✦✦
+    <span></span>
+</div>
+
+       <div class="intro">
+        <h1>Hi, I'm<span> Rajni Rajbhar</span></h1>
+        <p>BCA Student | Aspiring Web Developer </p>
+    
+        <button class="view-work-btn"> 🔍View My Work</button>
+      </button>
+     </section>
+
+         <!-- ================= ABOUT SECTION ================= -->
+
+   <section id="about" class="about">
+    <h1>About Me</h1>
+    <hr class="line">
+    <p>
+         Hello! I'm Rajni, a passionate BCA student with a strong interest in creating
+       modern, Responsive, and<br> User-friendly websites while continuously my Coding Skills.
+       I Believe in writing clean, efficient code<br> and building projects that solve Real-World problems.<br><br>
+
+       As a fresher, I'm constantly learning new technologies and improving my problem solving  skills to <br>build better,
+       faster digital experiences in Web Development.</p>
+        
+       <div class="about-skills">
+       <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>Responsive Design</span>
+        <span>Git & GitHub</span>
+    </div>
+    <div class="resume-btn">
+    <a href="cv.pdf" download> ➜Download Resume</a>
+</div>
+</section>
+
+    <!-- ================= SKILLS SECTION ================= -->
+<section id="skills" class="skills">
+
+    <h1>My Skills</h1>
+    <hr class="line">
+
+    <div class="skills-section">
+        <div class="skills-left">
+        <div class="skills-list">
+
+                <div class="box">
+                <i class="devicon-html5-plain colored"></i>
+                <span>HTML</span>
+                <span>95%</span>
+                </div>
+                <div class="bar"><div class="html"></div></div>
+
+                <div class="box">
+                <i class="devicon-css3-plain colored"></i>
+                <span>CSS</span>
+                <span>85%</span>
+                </div>
+                <div class="bar"><div class="css"></div></div>
+
+                <div class="box">
+                <i class="devicon-javascript-plain colored"></i>
+                <span>JavaScript</span>
+                <span>50%</span>
+                </div>
+                <div class="bar"><div class="js"></div></div>
+
+                <div class="box">
+                <i class="devicon-c-plain colored"></i>
+                <span>C Language</span>
+                <span>90%</span>
+                </div>
+                <div class="bar"><div class="c"></div></div>
+
+                <div class="box">
+                <i class="devicon-cplusplus-plain colored"></i>
+                <span>C++</span>
+                <span>80%</span>
+                </div>
+                <div class="bar"><div class="cpp"></div></div>
+
+            </div>
+        </div>
+
+        <div class="skills-right">
+        <img src="tech 2.jpeg" alt="Technical Skills">
+          <h2>🚀Technical Skills...</h2>
+            <p>
+                Committed to continuous learning, technical excellence,
+                and professional growth with a passion for developing
+                strong problem-solving abilities and adapting to new
+                technologies with confidence.
+            </p>
+
+          </div> </div>
+          </section>
+            
+    <!-- ================= CERTIFICATE SECTION ================= -->
+
+    <section id="certificate" class="certifications">
+    <h1>🏆 Certificates</h1>
+    <hr class="line">
+
+    <div class="certificate-title">
+        <p>Here are some of my certifications that represent my skills and knowledge.</p></div>
+
+        <div class="certificate-container">
+
+        <div class="certificate-card">
+        <div class="certificate-content">
+            <h3>Basic Leadership Development Program</h3>
+                    <p> From SUPER77!<br>
+                    I learned how to solve hard problems and manage my emotions.
+                    I am ready to lead teams and grow my career. </p>
+
+                <button class="view-btn" 
+                onclick="openModal('S77.png')">
+                    View Certificate →
+                </button> </div> </div>
+
+        <div class="certificate-card">
+        <div class="certificate-content">
+             <h3>C Programming Basics</h3>
+              <p> From Simplilearn SkillUp!<br>
+                Learned core concepts in C language. This is my first step into the world of programming.</p>
+
+                <button class="view-btn"  onclick="openModal('c.jpeg')">
+                    View Certificate →
+                </button></div></div>
+
+        <div class="certificate-card">
+        <div class="certificate-content">
+        <h3>Digital Productivity with AI</h3>
+                <p>From YuWaah & UNICEF!<br>
+                 Using AI to save time, streamline work, and build digital skills. </p>
+
+                <button class="view-btn" onclick="openModal('AI.jpeg')">
+                    View Certificate →
+                </button> </div> </div>
+
+        <div class="certificate-card">
+        <div class="certificate-content">
+        <h3>Coding Competition</h3>
+
+                <p> From TECHNORHYTHM!<br>
+                This certificate displayed analytical skills, programming aptitude, and commitment to technical growth.</p>
+
+                <button class="view-btn"  onclick="openModal('coding.jpg')">
+                    View Certificate →
+                </button> </div> </div>
+             </div>
+             <div id="certificateModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img id="modalImage" class="modal-content">
+    </div>
+                </section>
+
+
+<!-- ================= PROJECT SECTION ================= -->
+
+        
+    <section id="projects" class="project-section">
+    <h2 class="project-title">My Project</h2>
+
+    <div class="project-card">
+    <h3>💻 Personal Portfolio Website</h3>
+    <p>This Personal Portfolio Website represents my journey as a web development learner.
+         It is designed with a clean, responsive, and user-friendly interface to present
+         my skills, certifications, and projects professionally. 
+        Developed using HTML, CSS, and JavaScript, it demonstrates my ability 
+        to build modern websites with a strong focus on design, usability, and continuous learning.
+        </p>
+
+        <a href="https://techyrajni.github.io/My-Portfolio-Website/" class="project-button">
+            View Project →
+         </a>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT SECTION ================= -->
+
+<section id="contact" class="contact-section">
+  <h2 class="main-heading">Let's Connect</h2>
+<p>Thank you for visiting my portfolio. Let's connect if you have any questions,
+ project-related doubts, opportunities, or collaboration ideas—I'd be happy to hear from you.
+</p>
+
+<form id="contactForm">
+<input
+type="text"
+placeholder="Your Name">
+
+<input
+type="email"
+placeholder="Email Address">
+
+<textarea
+placeholder="Write your message..."></textarea>
+
+<button type="submit" class="contact-btn">
+📨 Send Message
+</button>
+</form>
+
+<div class="social-icons">
+
+    <a href="www.linkedin.com/in/
+     rajni-rajbhar-6020633ab
+      Vanity URL name" target="_blank" title="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
+
+    <a href="https://github.com/RajniRajbhar" target="_blank" title="GitHub">
+        <i class="fa-brands fa-github"></i>
+    </a>
+
+    <a href="rajni4567raj@gmail.com" title="Email">
+        <i class="fa-solid fa-envelope"></i>
+    </a> </div></section>
+    
+<script src="script.js">
+</script>
+</body></html>
+
+
+
+
+    
+
+
